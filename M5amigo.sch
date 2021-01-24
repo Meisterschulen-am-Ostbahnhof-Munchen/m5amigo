@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -311,8 +311,12 @@
 <plain>
 </plain>
 <instances>
-<instance part="CN1" gate="G$1" x="17.78" y="25.4"/>
-<instance part="CN2" gate="G$1" x="48.26" y="25.4"/>
+<instance part="CN1" gate="G$1" x="17.78" y="25.4" smashed="yes">
+<attribute name="NAME" x="17.78" y="22.86" size="1.27" layer="95"/>
+</instance>
+<instance part="CN2" gate="G$1" x="48.26" y="25.4" smashed="yes">
+<attribute name="NAME" x="48.26" y="22.86" size="1.27" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
